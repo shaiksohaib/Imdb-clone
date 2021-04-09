@@ -15,16 +15,16 @@ export class Movie extends Component {
   }
   render() {
     const { loading, movie } = this.props;
-    const FavouriteComponent = this.props.favouriteComponent
+    // const FavouriteComponent = this.props.favouriteComponent
     let movieInfo = (
       <div className="container">
         <div className="row">
           <div className="image-container col-md-4 card card-body bg-dark ">
             <img src={movie.Poster}   className=" thumbnail" alt="Poster" />
            
-            <div className="overlay d-flex align-items-center justify-content-center">
+            {/* <div className="overlay d-flex align-items-center justify-content-center">
               <FavouriteComponent></FavouriteComponent>
-           </div>
+           </div> */}
           </div>
           
           <div className="col-md-8">
