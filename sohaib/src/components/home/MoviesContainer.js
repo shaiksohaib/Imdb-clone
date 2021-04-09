@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import { connect } from 'react-redux';
-
+import AddFavourites from "./AddFavourites";
 import MovieCard from './MovieCard';
 
 export class MoviesContainer extends Component {
@@ -12,13 +12,13 @@ export class MoviesContainer extends Component {
     content =
       movies.Response === 'True'
         ? movies.Search.map((movie, index) => (
-            <MovieCard key={index} movie={movie} />
+            <MovieCard key={index} movie={movie} favouriteComponent ={AddFavourites} />
           ))
         : null;
     return <div className="row">{content}</div>;
   }
 }
-
+  
 const mapStateToProps = state => ({
   movies: state.movies.movies
 });
