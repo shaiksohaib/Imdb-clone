@@ -1,22 +1,68 @@
-# Milestone-9: IMDb
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Learning competencies:
+## Available Scripts
 
-At the end of this milestone you will learn
+In the project directory, you can run:
 
-- Maintaining application state using Redux
-- Using third party components in React
-- Understanding Relational databases
+### `npm start`
 
-## Problem statement:
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Are you a movie enthusiast ?! Well, in this milestone you are going to build a replica of worlds most popular and authoritative source for movie, TV and celebrity content called [IMDb](https://www.imdb.com/).
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-### What is IMDb ?
+### `npm test`
 
-> IMDb, in full Internet Movie Database, Web site that provides information about millions of films and television programs as well as their cast and crew.
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-According to wikipedia, as of May 2019, IMDb has approximately 6 million titles (including episodes) and 9.9 million personalities in its database, as well as 83 million registered users.  
-IMDb originated with a Usenet posting by British film fan and computer programmer Col Needham entitled "Those Eyes", about actresses with beautiful eyes. Others with similar interests soon responded with additions or different lists of their own.
+### `npm run build`
 
-In 1998, Jeff Bezos, founder, owner, and CEO of Amazon.com, struck a deal with Needham and other principal shareholders to buy IMDb outright for approximately \$55 million and attach it to Amazon as a subsidiary, private company. This gave IMDb the ability to pay the shareholders salaries for their work, while Amazon.com would be able to use IMDb as an advertising resource for selling DVDs and videotapes.
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
