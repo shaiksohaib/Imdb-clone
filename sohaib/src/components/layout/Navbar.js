@@ -12,9 +12,9 @@ function Navbar() {
             </Link>
           </div>
           <ul className="navbar-nav ml-auto text-light d-inline-block">
-            <li className="nav-item d-inline-block mr-4">
-            </li>
+           
             <i className="fab fa-imdb fa-5x" id="imdb-logo" />
+            
           </ul>
         </div>
       </nav>

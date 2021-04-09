@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
 import { fetchMovie, setLoading } from '../../actions/searchActions';
-
+// import AddFavourites from "./AddFavourites.js";
 import Spinner from '../layout/Spinner';
 
 
@@ -22,9 +22,9 @@ export class Movie extends Component {
           <div className="image-container col-md-4 card card-body bg-dark ">
             <img src={movie.Poster}   className=" thumbnail" alt="Poster" />
            
-            {/* <div className="overlay d-flex align-items-center justify-content-center">
-              <FavouriteComponent></FavouriteComponent>
-           </div> */}
+            <div className="overlay d-flex align-items-center justify-content-center">
+            {/*  <FavouriteComponent></FavouriteComponent> */}
+           </div>
           </div>
           
           <div className="col-md-8">
