@@ -61,9 +61,10 @@ export class Movie extends Component {
               {movie.Plot}
               <hr />
               
-              <Link to="/" className="btn btn btn-primary text-light">
-                Go Back To Search
+              <Link to="/" className="btn btn btn-primary text-light">  <i className=" fas fa-chevron-left" />  
+                 Go Back To Search
               </Link>
+             
             </div>
           </div>
         </div>
